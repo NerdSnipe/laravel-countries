@@ -85,6 +85,7 @@ class LocationController extends Controller
             $rows = [
                 'id' => $country->id,
                 'name' => $country->name,
+                'code'  => $country->iso2
             ];
         }
 
